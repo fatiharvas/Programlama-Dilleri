@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Programlama Dilleri</string>
+
+    <!-- Dialog -->
+    <string name="internetDialog_title">İnternet Bağlantınız Yok</string>
+    <string name="internetDialog_message">Uygulamayı kullanmak için internete bağlayın</string>
+    <string name="internetDialog_negativeButton">Kapat</string>
+    <string name="internetDialog_positiveButton">İnterneti Aç</string>
+    <string name="backPressedDialog_title">Uygulamadan Çıkılıyor!</string>
+    <string name="backPressedDialog_message">Uygulamadan çıkmak istediğinize emin misiniz ?</string>
+    <string name="backPressedDialog_negativeButton">İptal</string>
+    <string name="backPressedDialog_positiveButton">Evet</string>
+
+    <!-- list_item -->
+    <string name="text_view_text">Programlama Dili : </string>
+    <string name="text_view2_text">Tasarımcısı : </string>
+    <string name="text_view3_text">İlk Çıkışı : </string>
+    <string name="text_isim_text">Python</string>
+    <string name="text_tasarimci_text">Guido van Rossum</string>
+    <string name="text_yil_text">1990</string>
+
+    <!-- activity splash -->
+    <string name="detail_text_view_text">TextView</string>
+
+</resources>

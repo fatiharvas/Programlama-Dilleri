@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/card_view_corner_radius"
+    android:layout_margin="@dimen/card_view_margin"
+    app:cardElevation="@dimen/card_view_card_elevation">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/constraint_layout_height"
+        android:padding="@dimen/constraint_layout_padding">
+
+        <ImageView
+            android:id="@+id/imgKucukResim"
+            android:layout_width="@dimen/image_layout_width"
+            android:layout_height="@dimen/image_layout_height"
+            android:layout_marginStart="@dimen/image_margin_start"
+            android:layout_marginTop="@dimen/image_margin_top"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/text_view_margin_start"
+            android:layout_marginTop="@dimen/text_view_margin_start2"
+            android:text="@string/text_view_text"
+            app:layout_constraintStart_toEndOf="@+id/imgKucukResim"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtIsim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/text_view_margin_start3"
+            android:layout_marginTop="@dimen/text_view_margin_top2"
+            android:text="@string/text_isim_text"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/textView"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/text_view_margin_start"
+            android:layout_marginTop="@dimen/text_view_margin_top"
+            android:text="@string/text_view2_text"
+            app:layout_constraintStart_toEndOf="@+id/imgKucukResim"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/txtTasarimci"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/text_view_margin_start3"
+            android:layout_marginTop="@dimen/text_view_margin_top"
+            android:text="@string/text_tasarimci_text"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/txtIsim" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/text_view_margin_start"
+            android:layout_marginTop="@dimen/text_view_margin_top"
+            android:text="@string/text_view3_text"
+            app:layout_constraintStart_toEndOf="@+id/imgKucukResim"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <TextView
+            android:id="@+id/txtYil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/text_view_margin_start3"
+            android:layout_marginTop="@dimen/text_view_margin_top"
+            android:text="@string/text_yil_text"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/textView3"
+            app:layout_constraintTop_toBottomOf="@+id/txtTasarimci" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
